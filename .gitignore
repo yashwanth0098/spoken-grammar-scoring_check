@@ -1,0 +1,50 @@
+# ---- Python environment and caches ----
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# ---- Dataset folder: raw audio, CSVs and everything the notebook generates ----
+# Several GB and not ours to redistribute. Covers the folder under either name.
+shl-hiring-assessment-2026/
+shl _test/
+**/Dataset_Final/
+**/working/
+
+# ---- Large files, wherever they are (GitHub rejects files over 100 MB) ----
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.ogg
+*.npy
+*.npz
+*.jsonl
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.onnx
+*.bin
+*.safetensors
+
+# ---- Empty clone of the GitHub repo inside the project (not part of it) ----
+spoken-grammar-scoring_check/
+
+# ---- Editor and OS files ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Secrets and local settings ----
+.env
+.claude/settings.local.json
